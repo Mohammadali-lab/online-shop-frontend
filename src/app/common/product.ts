@@ -1,11 +1,23 @@
 export class Product {
-  constructor(public sku: string,
-              public name: string,
-              public description: string,
-              public unitPrice: number,
-              public imageUrl: string,
-              public active: boolean,
-              public unitsInStock: number,
-              public dateCreated: Date,
-              public lastUpdated: Date){}
+
+  // @ts-ignore
+  public id: string;
+  // @ts-ignore
+  public sku: string;
+  // @ts-ignore
+  public name: string;
+  // @ts-ignore
+  public description: string;
+  // @ts-ignore
+  public unitPrice: number;
+  // @ts-ignore
+  public imageUrl: string;
+  // @ts-ignore
+  public active: boolean;
+  // @ts-ignore
+  public unitsInStock: number;
+  // @ts-ignore
+  public dateCreated: Date;
+  // @ts-ignore
+  public lastUpdated: Date;
 }
